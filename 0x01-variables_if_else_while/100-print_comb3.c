@@ -8,9 +8,12 @@
  *
  * Return: Always 0 (Success)
  */
+#include <stdio.h>
+
 int main(void)
 {
-	int num1, num2;
+	int num1;
+	int num2;
 
 	for (num1 = 0; num1 <= 9; num1++)
 	{
@@ -26,6 +29,5 @@ int main(void)
 		}
 	}
 	putchar('\n);
-
 	return (0);
 }
