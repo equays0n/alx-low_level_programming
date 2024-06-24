@@ -12,16 +12,16 @@
 
 int main(void)
 {
-	int num1;
-	int num2;
+	int x;
+	int y;
 
-	for (num1 = 0; num1 <= 9; num1++)
+	for (x = 0; x <= 9; x++)
 	{
-		for (num2 = num1 + 1; num2 <= 9; num2++)
+		for (y = x + 1; y <= 9; y++)
 		{
-			putchar(num1 + '0')
-			putchar(num2 + '0');
-			if (!(num1 == 8 && num2 == 9))
+			putchar(x + '0');
+			putchar(y + '0');
+			if (!(x == 8 && y == 9))
 			{
 				putchar(',');
 				putchar(' ');
