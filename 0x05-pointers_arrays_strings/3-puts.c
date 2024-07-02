@@ -4,12 +4,16 @@
  * _puts - prints a string followed by a new line to stdout
  * @str: pointer to the string to print
  */
-void _puts(char *str)
+int main(void)
 {
+	char *str = "I do not fear computers.";
+
 	while (*str)
 	{
 		_putchar(*str);
 		str++;
 	}
 	_putchar('\n');
+
+	return (0);
 }
