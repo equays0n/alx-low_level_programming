@@ -20,5 +20,5 @@ char *_strcpy(char *dest, const char *src)
 	}
 	*dest = '\0';
 
-	return ptr;
+	return (ptr);
 }
