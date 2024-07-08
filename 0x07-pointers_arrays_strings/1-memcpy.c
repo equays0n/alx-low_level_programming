@@ -8,7 +8,7 @@
  *
  * Return: pointer to the destination memory area
  */
-char *_memcpy(char *dest, const char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
